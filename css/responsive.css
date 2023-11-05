@@ -1,0 +1,345 @@
+/*responsive*/
+@media (max-width: 1300px) {
+  .banner .box1 {
+    height: 470px;
+    overflow: hidden;
+  }
+
+  .content-section .card {
+    flex: 1;
+    height: 500px;
+    margin: 20px 20px;
+    padding: 0px 10px 50px 10px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .content-section .card img {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+  }
+
+  .content-section .card h2 {
+    text-align: center;
+    color: rgb(0, 81, 255);
+    margin: 15px 0px;
+    font-size: 15px;
+  }
+
+  .content-section .card p {
+    font-size: 11px;
+    line-height: 1.5;
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+
+  .contact-section .text-box {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 1200px) {
+  .banner .box1 {
+    height: 435px;
+    overflow: hidden;
+  }
+  header {
+    padding: 20px;
+  }
+  header label {
+    display: initial;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  header .navbar ul li {
+    width: 100%;
+  }
+  header .navbar ul li ul {
+    position: relative;
+    width: 100%;
+  }
+  header .navbar ul li ul li {
+    background: #fff;
+  }
+  header .navbar ul li ul li ul {
+    width: 100%;
+    left: 0;
+  }
+  #menu-bar:checked ~ .navbar {
+    display: initial;
+  }
+}
+@media (max-width: 992px) {
+  header {
+    padding: 20px;
+  }
+  header label {
+    display: initial;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  header .navbar ul li {
+    width: 100%;
+  }
+  header .navbar ul li ul {
+    position: relative;
+    width: 100%;
+  }
+  header .navbar ul li ul li {
+    background: #fff;
+  }
+  header .navbar ul li ul li ul {
+    width: 100%;
+    left: 0;
+  }
+  #menu-bar:checked ~ .navbar {
+    display: initial;
+  }
+  .banner .box1 {
+    height: 328px;
+    overflow: hidden;
+  }
+  .content-section {
+    flex-direction: column;
+  }
+  .content-section .card {
+    width: 440px;
+    flex: 1;
+    height: 500px;
+    margin: 20px 20px;
+    padding: 0 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  }
+  .content-section .card img {
+    width: 80%;
+    height: 80%;
+  }
+  .footer-col img {
+    padding-left: 50px;
+    width: 270px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner .box1 {
+    height: 280px;
+    overflow: hidden;
+  }
+
+  .img-section .imgbox1 img {
+    width: 750px;
+  }
+
+  .img-section1 .imgbox2 img {
+    width: 400px;
+  }
+
+  .page5-box .img-box img {
+    width: 50%;
+  }
+
+  .page5-box .text-box {
+    margin: 30px 0;
+    flex-wrap: wrap;
+  }
+
+  .page5-box .text-box ul li {
+    margin-left: 60px;
+    list-style: disc;
+    font-size: 1rem;
+  }
+
+  .contact-section {
+    flex-direction: column;
+  }
+
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* .banner .box1 {
+    height: 210px;
+    overflow: hidden;
+  }
+  .footer-col {
+    width: 50%;
+  }
+
+  .pdf-section .pdfbox1 {
+    padding: 20px 50px 20px 50px;
+    width: auto;
+  }
+
+  .pdf-section .pdfbox1 .pdf-title {
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px;
+    width: 450px;
+    background-color: #102dec;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .img-section .imgbox1 img {
+    width: 100%;
+  }
+
+  .img-section1 .imgbox2 p{
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 100px;
+    padding: 20px;
+    color: #fff;
+    background-color: #ff0084;
+  
+  }
+  
+  .img-section1 .imgbox2 i{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0 50px;
+  
+  }
+
+  .img-section1 .imgbox2 img {
+    width: 300px;
+  }
+
+  .page5-box .title-box p{
+    font-size: 1.8rem;
+  }
+
+  .contact-section{
+    flex-direction: column;
+  }
+
+  .contact-section .map-box iframe{
+    max-width: 100%;
+  } */
+
+  /* 414 */
+  .navbox .title1 {
+    font-size: 25px;
+  }
+
+  .banner .box1 {
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .top-section {
+    padding-top: 85px;
+  }
+
+  .content-section .card img {
+    width: 50%;
+  }
+
+  .content-section .card h2 {
+    flex-wrap: wrap;
+  }
+
+  .content-section .card {
+    width: 400px;
+  }
+
+  .footer-col img {
+    padding-right: 100px;
+  }
+
+  .navtop .nav1{
+    font-size: 20px;
+  }
+
+  .pdf-section .pdfbox1 {
+    padding: 20px 50px 20px 50px;
+    width: auto;
+  }
+
+  .pdf-section .pdfbox1 .pdf-title {
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 20px;
+    text-wrap: wrap;
+  }
+
+  .img-section1 .imgbox2 p{
+    font-size: 10px;
+  }
+
+  .img-section1 .imgbox2 i{
+    font-size: 25px;
+    margin: 0 20px;
+  }
+
+  .img-section1 .imgbox2 img{
+    width: 200px;
+  }
+
+  .img-section2 .imgbox3 img{
+    width: 380px;
+  }
+  .navbox .title1 {
+    font-size: 20px;
+  }
+}
+
+/* ployyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy */
+
+@media (max-width: 1300px) {
+  .box2 p {
+    font-size: 20px;
+  }
+  .box2 h3 {
+    font-size: 26px;
+  }
+  .mypdf {
+    height: auto;
+  }
+  .item {
+    position: absolute;
+    top: 700px;
+    left: 650px;
+    bottom: 100px;
+  }
+}
+@media (max-width: 992px) {
+  .cen p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .box2 p {
+    font-size: 16px;
+  }
+  .box2 h3 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 576px) {
+  .box2 h3 {
+    font-size: 20px;
+  }
+}
