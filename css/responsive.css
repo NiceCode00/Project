@@ -302,6 +302,14 @@
   .navbox .title1 {
     font-size: 20px;
   }
+
+  .img-section .imgbox1 img {
+    width: 400px;
+  }
+
+  .map-box iframe{
+    width: 380px;
+  }
 }
 
 /* ployyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy */
